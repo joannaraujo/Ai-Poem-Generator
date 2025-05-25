@@ -1,3 +1,70 @@
 body {
-    background: rgb(246, 255, 215)
+  background: rgb(251, 255, 238);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+}
+.Container {
+  display: flex;
+  margin: 0 auto;
+  width: 600%;
+  text-align: center;
+  max-width: 600px;
+}
+.Title {
+  text-align: left;
+  font-size: 2px;
+  margin-bottom: 20px;
+}
+.Enter-topic {
+  justify-content: center;
+  background: rgb(147, 182, 101);
+  border-radius: 30px 15px 30px 15px;
+  padding: 20px;
+  height: 50px;
+  width: 600px;
+  box-shadow: 60px black;
+}
+.Submit-button {
+  margin-left: 10px;
+  background-color: rgb(140, 162, 81);
+  color: rgb(203, 240, 98);
+  padding: 4px;
+  width: 67px;
+  height: 50px;
+  border-radius: 70% 70% 60% 60% / 80% 80% 40% 40%;
+  box-shadow: 0 8px 16px rgba(231, 255, 94, 0.838);
+  border: none;
+}
+.prompt {
+  padding: 16px;
+  border: 1px grey;
+  width: 80%;
+  font-size: 16px;
+  border-radius: 50px;
+  line-height: 20px;
+}
+.Text-poem {
+  font-size: 16px;
+  background: rgb(247, 255, 192);
+  padding: 20px;
+  height: 100px;
+  width: 600px;
+  border-radius: 15px 30px 30px 15px;
+  line-height: 24px;
+  border-left: 2px solid rgb(147, 182, 101);
+}
+a {
+  color: rgb(147, 182, 101);
+}
+.Footer {
+  font-size: 12px;
+  text-align: center;
+  margin-top: 30px;
 }

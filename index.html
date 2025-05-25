@@ -7,26 +7,41 @@
     <title>Ai Poem Generator</title>
   </head>
   <body>
-    <h1>Ai Poem Generator</h1>
-    <main>
-        <form> 
-            <input type = "text"
-            placeholder=" Enter a topic! ☺️"
-            autofocus
-            required
-            autocomplete="off"/>
-            <input type = "submit"/>
-        </form>
-        <div>
-            Poem here 
-            <br/>
-            Poem here 
+    <div class="Container"></div>
+      <h1 class="Title">Ai Poem Generator</h1>
+      <main>
+        <div class="Enter-topic">
+          <form>
+            <input
+              type="text"
+              placeholder=" Enter a topic!"
+              autofocus
+              required
+              autocomplete="off"
+              class = "prompt"
+            />
+            <input type="submit" 
+            class = "Submit-button"/>
+          </form>
         </div>
-    </main>
-  </body>
-  <footer>
-    Ai project coded by Joana Araujo<a href="https://github.com/joannaraujo/Ai-Poem-Generator/blob/main/index.html" target = "_blank">
-        open sourced on GitHub</a>,<a href= ""Hosted on Netlify></a>
+        <br />
+        <div class="Text-poem">
+          Text Poem here <br />
+          Text Poem here
+        </div>
+        <br />
+      </main>
+    </div>
+    <footer class="Footer">
+    Ai project coded by Joana Araujo open sourced on
+    <a
+      href="https://github.com/joannaraujo/Ai-Poem-Generator/blob/main/index.html"
+      target="_blank"
+    >
+      GitHub</a
+    >
+    hosted on Netlify. <a target="_blank"></a>
   </footer>
-  <script scr="src/index.js"></script>
+  </body>
+  <script src="src/index.js"></script>
 </html>
